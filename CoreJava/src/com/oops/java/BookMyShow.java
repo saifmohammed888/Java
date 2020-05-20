@@ -1,4 +1,4 @@
-package com.oopsjava;
+package com.oops.java;
 
 public abstract class BookMyShow {												//abstract class
 	abstract void getFreeMovietickets();										//abstract method

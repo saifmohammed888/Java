@@ -1,4 +1,4 @@
-package com.corejava;
+package com.core.java;
 
 public class Variables 							  		//class is a Keyword 
 {

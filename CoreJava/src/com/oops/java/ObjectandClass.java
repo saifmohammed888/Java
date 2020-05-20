@@ -1,4 +1,4 @@
-package com.oopsjava;
+package com.oops.java;
 
 public class ObjectandClass {														//Class
 	

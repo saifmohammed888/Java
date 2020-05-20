@@ -1,4 +1,4 @@
-package com.oopsjava;
+package com.oops.java;
 
 //import java.util.Date;
 

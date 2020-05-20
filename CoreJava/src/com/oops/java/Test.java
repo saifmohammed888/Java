@@ -1,4 +1,4 @@
-package com.oopsjava;
+package com.oops.java;
 
 public interface Test {
 
