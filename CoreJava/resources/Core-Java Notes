@@ -72,13 +72,13 @@ Java Fundamentals
  	
 6. Operators - These are specific symbols that helps in performing mathematical operations with variables.
 
-	a. Unary Operator	- (Pre increment ++i; Post Increment i++; Pre Decrement --i; Post Decrement i--;)
-	b. Shift Operator	- (shifting the binary value of the variable by given iteration)
-	c. Ternary Operator	-(Special for statment a<b?true:false)
-	d. logical Operator	-(AND && , OR || , NOT !)
-	e. Relational	-(Lesser than <, Greater than >, Equal to ==, Not Equal to !=)
-	f. Assingment	-(Assigning value =)
-	g. Arithematic	-(Addition +, Subtraction -, Multiplication *, Division /, Modulus %)
+	a. Unary Operator		- (Pre increment ++i; Post Increment i++; Pre Decrement --i; Post Decrement i--;)
+	b. Shift Operator		- (shifting the binary value of the variable by given iteration)
+	c. Ternary Operator		-(Special for statment a<b?true:false)
+	d. logical Operator		-(AND && , OR || , NOT !)
+	e. Relational		-(Lesser than <, Greater than >, Equal to ==, Not Equal to !=)
+	f. Assingment		-(Assigning value =)
+	g. Arithematic		-(Addition +, Subtraction -, Multiplication *, Division /, Modulus %)
 	
 7. Control Statements;
 	
