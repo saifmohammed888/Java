@@ -32,7 +32,5 @@ public class Constructor {
 		// Calling the parameterized constructor
 		System.out.println("Bowler Name:" + constObject2.bowlerName);
 		System.out.println("Bowler speed:" + constObject2.bowlSpeed);
-
 	}
-
 }

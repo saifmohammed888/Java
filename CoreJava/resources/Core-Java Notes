@@ -113,10 +113,26 @@ Java Fundamentals
 	Constructor has no return type, and does not have return type. 
 	It can be default or parameterized constructor.
 
+3. Static Keyword - It is a keyword that makes memory allocation of the object just one per class, the memory is located in permanent generation memory.
+	The static variabl, object or methods are initiated at class loading and executed before main method.
+	Static objects can be accessed directly with classname, it does not request object to access its values.
+	Basically static is used to perform a one time instantiation or operation.
 
-
-
-
+4. This Keyword: it is a keyword used to assign user define value to object level variable.
+	It can be used to invoke current class variable, method or constructor.
+	
+5. Oops Concepts ------->> These are generic method of programming used in modern languages comprising of certain features
+	
+6. Inheritance - The process of inheriting variables or methods from parent class to child class is called inheritance.
+			Inheritance shows "is a" relationship ex- Vehicle is a parent of car class
+			Inheritance helps in code reusability and acheive run time polymorphism.
+			
+			Types of inheritance - Single level (Parent -child), Multi level (GrandParent-Parent-Child)
+			Hybrid Inheritance (Combination of inheritance) Multiple inheritance is not supported in java
+		
+7. Aggregation - it is another term to has a "has a" relationship, here there is an entity based relation ex- car has a stairing
+	
+8. 
 
 
 
