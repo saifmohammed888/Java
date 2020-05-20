@@ -153,22 +153,8 @@ Java Fundamentals
 14. Abstract class- The class which contains at least one abstract method, the keyword abstract is prefixed with the class.
 	Abstract methods of the class will be implemented by its child classes, the abstract method does not have implementation.
 	
-15. 
+15. Encapsulation: Data hiding It is a way of binding all data members of a class into a single unit.
+	Encapsulation is used to avoid leakage of data members to avoid unwanted interference, and to increase loose coupling.
+	This can be achieve by making variables private and getter methods public.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+16.	  	

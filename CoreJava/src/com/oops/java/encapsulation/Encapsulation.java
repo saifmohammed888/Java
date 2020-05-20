@@ -1,4 +1,4 @@
-package com.oops.java;
+package com.oops.java.encapsulation;
 
 public class Encapsulation {
 
@@ -27,10 +27,6 @@ public class Encapsulation {
 	
 	public static void main(String[] args) {
 		
-		Encapsulation e=new Encapsulation();
-		e.setAmount(1000000);
-		System.out.println(e.getAmount());
-		e.setname("Mohammed Saif");
-		System.out.println(e.getName());
+		System.out.println("Encapsulated Data using private variables");
 	}
 }
