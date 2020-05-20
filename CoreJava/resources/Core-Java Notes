@@ -80,4 +80,8 @@ Java Fundamentals
 	f. Assingment	-(Assigning value =)
 	g. Arithematic	-(Addition +, Subtraction -, Multiplication *, Division /, Modulus %)
 	
-7. 
+7. Control Statements;
+	
+	a. Selection Statements - Executing code on meeting condition (if, else , if-else , switch;)
+	b. Iterative Statements	- Looping a statement untill condition is false (while, do while, for, foreach)
+	c. Jump Statements	- To jump control form one place to another based on conditions(break, continue, exit;)
