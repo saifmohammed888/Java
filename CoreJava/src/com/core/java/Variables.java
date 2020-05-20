@@ -9,7 +9,7 @@ public class Variables {
 		String locaVariabl = "local Variable";			// --> Local Variable
 
 		Variables instance = new Variables();
-		instance.instanceVariable = "Instance Variable";		// --> Instance Variable
+		instance.instanceVariable = "Instance Variable";	// --> Instance Variable
 
 		System.out.println(staticVariable);
 		System.out.println(locaVariabl);
