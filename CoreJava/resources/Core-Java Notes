@@ -46,10 +46,28 @@ Java Fundamentals
 	b. Final	-The value of the data with final keyword cannot be changed.
 	c. Abstract	-Classes or methods having just declaration but no implementation.
 	d. Synchronized	-Threading concepts
-
+	
 3. Variable	- Variables are memory location reserved to store values,there are 3 types of variables.
 
 	a. Local 	- Variable storing data for each method or class.
 	b. Static	- Variable storing data for each class that we create.
 	c. Instance - Variable storing data for each object that we create
 
+4. Data types - It denotes the type of data that is stored in the defined variable., they are of two types
+
+	1. Primitive Datatype -  Data types that are not objects but are primary data types of language.
+			
+		a.Numeric DT:	Stores a number ex byte,short,int, float, double
+		b.Non Numberic DT:	Storages non numeric items ex char, boolean 
+		
+	2. None Primitive Datatype - Data types that are objects or String and can be user defined.
+		
+		a. String:	Stores reference to the data
+		b. Array:	Stores collection of objects.
+		
+ 5. Type Conversion - The process of converting one data type to another, there are of two types based on scenarios
+ 	
+ 	a. Implicit Conversion: The data types of variables is changed by the compiler - ex - Ascii values
+ 	b. Explicit Conversion: The data types of variables	is changed explicitly or forcefully by developer - ex:casting integer to string 
+ 	
+ 6. 
