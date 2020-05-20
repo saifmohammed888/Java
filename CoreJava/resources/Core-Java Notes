@@ -127,15 +127,33 @@ Java Fundamentals
 			Inheritance shows "is a" relationship ex- Vehicle is a parent of car class
 			Inheritance helps in code reusability and acheive run time polymorphism.
 			
-			Types of inheritance - Single level (Parent -child), Multi level (GrandParent-Parent-Child)
+			Types of inheritance - Single level (Parent -child), Multi level (GrandParent-Parent-Child) - Hierarchial
 			Hybrid Inheritance (Combination of inheritance) Multiple inheritance is not supported in java
 		
 7. Aggregation - it is another term to has a "has a" relationship, here there is an entity based relation ex- car has a stairing
 	
-8. 
+8. Polymorphism - If a method has same number but perform multiple operations it is called as polymorphism 
 
+9. Method Overloading - It is also known as Compile time polymorphism, Multiple methods having same name but different implementation.
+   The methods are over loaded based on number, type or position of the arguments. it is identified during compile time. 
 
+10. Method Overriding: It is also known as Run time polymorphism, it is a concept wherein the user inherits a parents method and 
+	over ride its values to his/her requirement. Ex: inheriting parents vehicle and modifying it.
+					 
+11. Super Keyword: It is a keyword to invoke immediate parent class, or variable. super.a, super();
 
+12  Final Keyword: it makes a variable or mathod non over-ridable, making it a constact. final data cannot be inherited.
+					It can be applied to variables, methods and method parameter.
+				
+13. Data Abstraction: Data abstraction is a phenomenon of showing the functionality whereas hiding the implementation.ex we dont know how print works
+	Abstraction increases security, abstraction can be implemented using two ways abstract keyword or interface ways.
+	
+	Abstract class is not 100% abstract as it can have non abstract methods - whereas interface is pure abstraction.
+	
+14. Abstract class- The class which contains at least one abstract method, the keyword abstract is prefixed with the class.
+	Abstract methods of the class will be implemented by its child classes, the abstract method does not have implementation.
+	
+15. 
 
 
 
