@@ -90,7 +90,7 @@ Java Fundamentals
            	It is used to reduce redundancy and increase reusability of code, It may or may not return a value.
 		
 9. Arrays: It is a collection of multiple objects of similar data type, array works with index and start with 0 as index.
-			There are 2 types of Arrays - Single Dimension (storing just one row) 2. Multi Dimension (Storing a matrix table).
+	There are 2 types of Arrays - Single Dimension (storing just one row) 2. Multi Dimension (Storing a matrix table).
 		
 				
 			

@@ -44,7 +44,5 @@ public class Operators {
 		if (x == 100) {
 			System.out.println("Equality operator"); // Equality operator
 		}
-
 	}
-
 }
