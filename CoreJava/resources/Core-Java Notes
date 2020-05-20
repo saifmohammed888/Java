@@ -32,5 +32,6 @@ Steps How java works.
 First Java program 
 	-> The compiler executing the code from main method.
 	-> The main method is executed first as we make it static.
+	-> Update
 	
 	
