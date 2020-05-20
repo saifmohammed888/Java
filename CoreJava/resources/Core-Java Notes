@@ -103,16 +103,15 @@ Java Fundamentals
 
 <----------------------------------End of Fundamental Concepts --------------------------------------------------------->
 
+1. Classes and Objects:
+	
+	-Class is a generic item - that has a state and behavior - example phone is generic
+	-Object is an instanse of class that has a behavior only - example landline phone or mobile phone or smartphone.
+	-Attributes - These are properties of an object,like color,screen size, ram etc.
 
-
-
-
-
-
-
-
-
-
+2. Constructor - is a special metod that is called each time an object is created, with a new key word
+	Constructor has no return type, and does not have return type. 
+	It can be default or parameterized constructor.
 
 
 

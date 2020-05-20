@@ -3,7 +3,7 @@ package com.core.java;
 public class Arrays {
 
 	//MultiDimensional Arrays
-	public static void MultiDimArray(){
+	public static void multiDimArray(){
 		
 		int a[][] = new int[][] {{1,2},{3,4},{5,6}};
 		
@@ -61,7 +61,7 @@ public class Arrays {
 		}
 				
 		System.out.println(a.length);
-		Arrays.MultiDimArray();
+		Arrays.multiDimArray();
 		Arrays.activityArray();
 	}
 

@@ -4,28 +4,35 @@ public class Constructor {
 
 	int bowlSpeed;
 	String bowlerName;
-	
-	Constructor(){														//Default constructor calling the super method
+
+	// Default Constructor
+	Constructor() {
 		super();
-	System.out.println("The default constructor");
-				 }
-	
-	Constructor(int i,String x){										//Default constructor calling the super method
+		System.out.println("The default constructor");
+		System.out.println("The default constructor assigns default values");
+	}
+
+	// Parameterized Constructor
+	Constructor(int i, String x) {
+		System.out.println("The paremeterized constructor");
 		bowlSpeed = i;
 		bowlerName = x;
-		System.out.println("The default constructor assigns default values");
-	 }
-
-	
-	
-	public static void main(String[] args) {
-		Constructor c =new Constructor();
-		Constructor c1 = new Constructor(100,"Mohammed Saif");
-		System.out.println("Bowler Name:"+c.bowlerName);			//Calling the default constructor
-		System.out.println("Bowler speed:"+c.bowlSpeed);
-		
-		System.out.println("Bowler Name:"+c1.bowlerName);			//Calling the parameterized constructor
-		System.out.println("Bowler Name:"+c1.bowlSpeed);			//we can see constructor overloading based on parameters
+		System.out.println("The paremeterized constructor assigns parsed values");
 	}
-	
+
+	public static void main(String[] args) {
+
+		Constructor constObject1 = new Constructor();
+		Constructor constObject2 = new Constructor(100, "Mohammed Saif");
+
+		// Calling the default constructor
+		System.out.println("Bowler Name:" + constObject1.bowlerName);
+		System.out.println("Bowler speed:" + constObject1.bowlSpeed);
+
+		// Calling the parameterized constructor
+		System.out.println("Bowler Name:" + constObject2.bowlerName);
+		System.out.println("Bowler speed:" + constObject2.bowlSpeed);
+
+	}
+
 }

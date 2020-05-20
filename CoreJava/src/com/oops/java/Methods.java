@@ -7,9 +7,7 @@ public class Methods {
 		
 		Methods m =new Methods();
 				m.nonstatic();
-				
-				//Methods.stat();									//static accessed by using class name
-				//Methods.nonstatic()								// non static gives error
+									// non static gives error
 				stat();												//object is not required to call the static method
 	}
 	
