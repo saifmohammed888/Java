@@ -157,4 +157,10 @@ Java Fundamentals
 	Encapsulation is used to avoid leakage of data members to avoid unwanted interference, and to increase loose coupling.
 	This can be achieve by making variables private and getter methods public.
 
-16.	  	
+16.	Interface - it is used to achieve pure abstraction, it is a way in which the parent class is allowed to the child users which
+	can implement the methods in a specified format. It helps in loose binding ex hdfc and icici implementing bookmyshow interface
+	Interface supports multiple intheritance. The child class can only implement the interface.
+
+	We cannot create objects of interface, we cannot have method implementations of methods in interface, it contains only public members;
+	
+17. 
