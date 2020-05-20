@@ -93,7 +93,6 @@ Java Fundamentals
           	There are 2 types of Arrays - Single Dimension (storing just one row) 2. Multi Dimension (Storing a matrix table).
 		
 10. Strings: It is a variable to store character array, it is a sequence of character. They are found inside String class. 
-			Strings are immutable to improve security, and supports synchronization.
-			String class manages caching to avoid duplicate memory for similar values.
-			
-			String pool - All constants of string are stored in string pool in heap memory.
+	Strings are immutable to improve security, and supports synchronization, they are wrapper class of string.
+	String class manages caching to avoid duplicate memory for similar values.
+	String pool - All constants of string are stored in string pool in heap memory.
