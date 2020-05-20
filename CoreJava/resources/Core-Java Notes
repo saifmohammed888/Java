@@ -1,9 +1,36 @@
-Java is a Object oriented programming with following features - 1995 sun micro system james gosling
+Java is a Object oriented programming with following Features:
+
 	- Robust
 	- Secure, portable
 	- Simple and verbose
 	- Platform Independent 
 	- No pointers concepts
 	- It follows and object oriented model
+	- Java 12 is the latest version of java as we work on this today.
+	
 
+Applications of Java
+
+	1. Web Applications
+	2. Enterprise Applications or Api's
+	3. Embedded systems.
+	4. Scientific Applications
+	5. Big data technologies, kafka components
+	6. IOT - smart watches, cars, sensors.
+	
+JVM - Java virtual machine
+
+	1. Java virtual machine is a vm provided by java that generates java bytecode.
+	2. JDK - used to develop code, complile and run hence it is jre plus jvm.
+	
+	
+Steps How java works.
+	-> Developer writes and compiles code to generate .java file
+	-> The JVM then generates the bytecode and gives it to the interpreter.
+	-> The Java interpreter then comverts bytecode to machine code to give the output.
+	
+First Java program 
+	-> The compiler executing the code from main method.
+	-> The main method is executed first as we make it static.
+	
 	
