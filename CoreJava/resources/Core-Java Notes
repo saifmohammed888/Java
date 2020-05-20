@@ -8,7 +8,6 @@ Java is a Object oriented programming with following Features:
 	- It follows and object oriented model
 	- Java 12 is the latest version of java as we work on this today.
 	
-
 Applications of Java
 
 	1. Web Applications
@@ -23,7 +22,6 @@ JVM - Java virtual machine
 	1. Java virtual machine is a vm provided by java that generates java bytecode.
 	2. JDK - used to develop code, complile and run hence it is jre plus jvm.
 	
-	
 Steps How java works.
 	-> Developer writes and compiles code to generate .java file
 	-> The JVM then generates the bytecode and gives it to the interpreter.
@@ -33,4 +31,25 @@ First Java program
 	-> The compiler executing the code from main method.
 	-> The main method is executed first as we make it static.
 	
+Java Fundamentals
+
+1. Access Modifiers
 	
+	a. Default 	- Data is accessible only within the package
+	b. Private 	- Data is accessible only within a class
+	c. Public  	- Data is accessible from anywhere in the project
+	d. Protected- Data is accessible from class, its sub classes inside a package.
+	
+2. Non Access Modifiers
+
+	a. static		-Helps in calling methods without object - loaded before main
+	b. Final		-The value of the data with final keyword cannot be changed.
+	c. Abstract		-Classes or methods having just declaration but no implementation.
+	d. Synchronized	-Threading concepts
+
+3. Variable	- Variables are memory location reserved to store values,there are 3 types of variables.
+
+	a. Local 		- Variable storing data for each method or class.
+	b. Instance 	- Variable storing data for each object that we create
+	c. Static		- Variable storing data for each class that we create.
+
