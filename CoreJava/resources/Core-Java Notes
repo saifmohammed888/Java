@@ -42,14 +42,14 @@ Java Fundamentals
 	
 2. Non Access Modifiers
 
-	a. static		-Helps in calling methods without object - loaded before main
-	b. Final		-The value of the data with final keyword cannot be changed.
-	c. Abstract		-Classes or methods having just declaration but no implementation.
-	d. Synchronized		-Threading concepts
+	a. static	-Helps in calling methods without object - loaded before main
+	b. Final	-The value of the data with final keyword cannot be changed.
+	c. Abstract	-Classes or methods having just declaration but no implementation.
+	d. Synchronized	-Threading concepts
 
 3. Variable	- Variables are memory location reserved to store values,there are 3 types of variables.
 
-	a. Local 		- Variable storing data for each method or class.
-	b. Instance 	- Variable storing data for each object that we create
-	c. Static		- Variable storing data for each class that we create.
+	a. Local 	- Variable storing data for each method or class.
+	b. Static	- Variable storing data for each class that we create.
+	c. Instance - Variable storing data for each object that we create
 
