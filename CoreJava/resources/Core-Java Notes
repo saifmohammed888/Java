@@ -87,7 +87,7 @@ Java Fundamentals
 	c. Jump Statements	- To jump control form one place to another based on conditions(break, continue, exit;)
 	
 8. Methods: Methods are special blocks written to execute set of statements that are to be executed at multiple instances.
-	It is used to reduce redundancy and increase reusability of code, It may or may not return a value.
-	A method basically invloves two steps method declaration and method calling.
+		It is used to reduce redundancy and increase reusability of code, It may or may not return a value.
+		A method basically invloves two steps method declaration and method calling.
 			
 			
