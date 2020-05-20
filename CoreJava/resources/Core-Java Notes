@@ -38,14 +38,14 @@ Java Fundamentals
 	a. Default 	- Data is accessible only within the package
 	b. Private 	- Data is accessible only within a class
 	c. Public  	- Data is accessible from anywhere in the project
-	d. Protected- Data is accessible from class, its sub classes inside a package.
+	d. Protected	- Data is accessible from class, its sub classes inside a package.
 	
 2. Non Access Modifiers
 
 	a. static		-Helps in calling methods without object - loaded before main
 	b. Final		-The value of the data with final keyword cannot be changed.
 	c. Abstract		-Classes or methods having just declaration but no implementation.
-	d. Synchronized	-Threading concepts
+	d. Synchronized		-Threading concepts
 
 3. Variable	- Variables are memory location reserved to store values,there are 3 types of variables.
 
