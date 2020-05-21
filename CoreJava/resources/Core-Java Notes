@@ -222,3 +222,9 @@ Java Fundamentals
 		-> HashSet - It creates collection storing objects using hashing mechanism.
 		-> LinkedHashSet - It creates collection table implementing unique insertion of data in order.
 		-> TreeSet - It is a sorted order of set.
+
+28. Generics -Generic provides type safety and to resolve type casting problem,
+			  Method - The generic methods wil have the capacity to give implemention to input data of any datatype
+			  Classs - same as normal but has a type parameter; 
+		
+29. Multithreading.
