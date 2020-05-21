@@ -201,6 +201,5 @@ Java Fundamentals
 	
 	a. Generics - Is is a wrapper class that can handle any data type at runtime, helps in better exception handling.
 	
-27. Generics
-28. Collections
-29. Threads
+27. Collections - Collection represents group of similar or different type of objects into a single object.
+				  Collections are inherited from iterables interface.
