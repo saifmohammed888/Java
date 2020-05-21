@@ -171,4 +171,13 @@ Java Fundamentals
 
 19. Regular Expressions - they are specific pattern check on a string or an array to check for two values to be matching, Validations.
 
+20. Exception Handling - Any unwanted exception that occurs while running the program is an exception, handling them is Exception handling.
+
+	1. Checked Exception -The classes which directly inherit Throwable class except RuntimeException and Error are known as checked exceptions 
+	   e.g. IOException, SQLException etc. Checked exceptions are checked at compile-time..
+	2. Unchecked Exceptions	-The classes which inherit RuntimeException are known as unchecked exceptions
+	   e.g. ArithmeticException, NullPointerException, ArrayIndexOutOfBoundsException etc.  
+	3. Errors - Exceptions which cannot be recovered from - Stackoverflow.
 	
+21. Exceptions can be handled using try catch, finally, throw keyword or throws.
+	User defined exception class could be created by creating child of exception class.	
