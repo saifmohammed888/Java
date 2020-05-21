@@ -160,7 +160,15 @@ Java Fundamentals
 16.	Interface - it is used to achieve pure abstraction, it is a way in which the parent class is allowed to the child users which
 	can implement the methods in a specified format. It helps in loose binding ex hdfc and icici implementing bookmyshow interface
 	Interface supports multiple intheritance. The child class can only implement the interface.
-
 	We cannot create objects of interface, we cannot have method implementations of methods in interface, it contains only public members;
 	
-17. 
+17. Package - it is a way to modularize the project, or add namespace to avoid collision or naming conflicts.
+	
+	a. Predefined packages -Packages inbuilt as part of java installation to be used for coding java.
+	b. UserDefined package	-Packages created by user based on their own requirements.
+	
+18. Class Object - it is the super class of all classes in java, they have few importance methods like tostring, hashcode etc.
+
+19. Regular Expressions - they are specific pattern check on a string or an array to check for two values to be matching, Validations.
+
+	

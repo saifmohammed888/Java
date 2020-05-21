@@ -1,19 +1,24 @@
 package com.oops.java;
 
-public class MemberFunctions {													//Class
+	//Class
+public class MemberFunctions {													
 	
-	static int topSpeed;											//Data Member
+	//Data Member
+	static int topSpeed;											
 	static String name ;
 	
-	public static void main(String[] args) {						//Main method
+	//Main method
+	public static void main(String[] args) {						
 		
-		MemberFunctions c = new MemberFunctions();											//Object
+		//Object
+		MemberFunctions c = new MemberFunctions();											
 		c.insertValue(100,"Verna");
 		c.showvalue();
 		
 	}
 		
-	void insertValue(int speed,String Name)							//Member function
+	//Member function
+	void insertValue(int speed,String Name)							
 	{
 		topSpeed =speed;
 		name=Name;
