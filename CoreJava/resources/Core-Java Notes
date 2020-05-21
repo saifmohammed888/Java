@@ -203,3 +203,22 @@ Java Fundamentals
 	
 27. Collections - Collection represents group of similar or different type of objects into a single object.
 				  Collections are inherited from iterables interface.
+				  
+	1. List : it is a collection interface implementing the Collection interface, they have ordered list of objects.
+			  They are stored orderyly and do support duplication values.
+			  
+	a. ArrayList - This is a class object representing resizable arrays, it implements randome access interface.
+	b. Linked List - This is a class object having sequence of links which contains items, links are connected to one another.
+			  	
+		-> Singly Linked list - Each node stores data aswell as reference to the next node.
+		-> Doubly Linked list - Each node stores data aswell as reference to the previous node and the next node.
+	
+	c. Vector - This class is similar to arraylist whereas it is synchronized and is thread safe.
+			  	  
+	2. Queue - It is a class that works on the principal of first in first out, it thus sorts data.
+	   add, peeking -fetch the head,poling remove the head.
+	   
+	3. Set - it is a collection of items but unique items,
+		-> HashSet - It creates collection storing objects using hashing mechanism.
+		-> LinkedHashSet - It creates collection table implementing unique insertion of data in order.
+		-> TreeSet - It is a sorted order of set.
