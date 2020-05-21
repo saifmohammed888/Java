@@ -181,3 +181,26 @@ Java Fundamentals
 	
 21. Exceptions can be handled using try catch, finally, throw keyword or throws.
 	User defined exception class could be created by creating child of exception class.	
+	
+22. XML Parsing in java - File Handling.
+	FileIO - used to import a file that would be required for the program.
+	
+	XML means Extensible markup language.
+
+23. Streams - are used to read data from source as 8 bit, where output stream to write data as stream.
+
+	a. InputStream: FileInputStream - Scanner - File
+	b. OutputStream - FileOutputStream
+
+24. Serialization - The ability to transfer the state of an object to another computer through wire or hardware storage, to employ
+	distributed computing.
+	
+	Deserialization - To deserialize the object into characters to be read by the system.
+	
+26  Wrapper Class - It is a method of declaring primitive datatypes as class:
+	
+	a. Generics - Is is a wrapper class that can handle any data type at runtime, helps in better exception handling.
+	
+27. Generics
+28. Collections
+29. Threads
