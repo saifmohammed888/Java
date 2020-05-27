@@ -19,6 +19,18 @@ b. Builder Design Pattern -  It is used to create constructors with lots of argu
 			based on objects rather than values, Generics helps improve builder patterns.
 		-> They provide immutability, complexity is increases but features added are worth it.
 		
-c. 
+c. Prototype pattern - It is used to get unique instance of same object, to avoid costly creation, the sub instances are cloned rather
+	than created using new. implemented with a registry.
+		-> Instead of creating an expensive instance using new we could have the same object with unique id when cloned.
+		-> It implements the instance clonable which then has to override the clone method to give the implementation
+			basically an object required for different purpuse can be cloned and used instead of new creation.
+			
+d. Factory Method: It is the second most used and opposite to singleton creation pattern.
+		-> They dont exponse instantiation logic to the user, by deferring subclass. ex Calender, number format.
+		-> They create and manage objects and helps in referencing objects,also they create methods.
+		-> It is parameter driven construction, its complex in implementation. Ex Website, Blog getting different onjects.
+	
+e. Abstract Factory: it is a factory of factory, it is factory of related objects, they defer subclass. Ex- Document Builder Factory
+		->
 			
 		
