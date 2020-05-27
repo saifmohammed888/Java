@@ -1,0 +1,24 @@
+Design Patterns - These are special design methods used to implement java oops project.
+				 	It is an abstract topic,helping solve certain design problems while coding.
+					The gang of wars were the authors of design patterns who broke down patterns into 3 types
+	
+1. Creational Patterns - Singleton, Builder, Prototype, Factory and Abstract Factory.
+
+a. Singleton Desing Patterns: It is a widely used design pattern due to simplicity and performance.
+		Only one single instance will be created using singleton design patterns.
+		It guarantess control of resource - and lazy loading ex - runtime, logger, Beans, graphics manager.
+		Singleton is static by itself,it has a private object and a constructor and a public method.
+		
+		-> Lazy loading - Loading the object with values only when called.
+		-> Thread safing - Making the objects available only for a single thread or blocking access to multiple threads.(volatile class)
+		-> PitFalls - Overused and unnessary sometimes.
+	
+b. Builder Design Pattern -  It is used to create constructors with lots of arguments.
+		-> Handles complex constructors, large parameters, Immutability Ex - StringBuilder, DocumentBuilder
+		-> The builder pattern has ability to handle multiple constructors by determing what constructor to create by creating constructors
+			based on objects rather than values, Generics helps improve builder patterns.
+		-> They provide immutability, complexity is increases but features added are worth it.
+		
+c. 
+			
+		
