@@ -18,19 +18,19 @@ public class List {
 		System.out.println("List 1"+list1);
 		
 		//Generic List
-		ArrayList list2= new ArrayList();
-		list2.add("Mohammed Saif");
-		list2.add(23);
-		list2.add(34000.40);
-		
-		
-		list2.set(2,"Lowes");
-		
-		System.out.println("List 2"+list2);
-		
-		//Get list items
-		System.out.println(list1.get(2));
-		System.out.println(list2.get(2));
+//		ArrayList list2= new ArrayList();
+//		list2.add("Mohammed Saif");
+//		list2.add(23);
+//		list2.add(34000.40);
+//		
+//		
+//		list2.set(2,"Lowes");
+//		
+//		System.out.println("List 2"+list2);
+//		
+//		//Get list items
+//		System.out.println(list1.get(2));
+//		System.out.println(list2.get(2));
 		
 		if(list1.contains("Saif")) {
 			System.out.println("Saif is part of the first list");
