@@ -13,7 +13,6 @@ public class Arrays {
 				System.out.println("Multidimensional Array "+a[i][j]);
 			}
 		}
-		
 	}
 	
 	//Activity
