@@ -3,11 +3,7 @@ package com.design.java.builder;
 public class ProductBean {
 
 	public static class Builder{
-		private String name;
-		private String category;
-		private String brand;
-		private int price;
-		
+
 		public Builder() {
 			
 		}
@@ -15,26 +11,7 @@ public class ProductBean {
 		public ProductBean Product() {
 			return new ProductBean(this);
 		}
-		
-		public Builder name(String name) {
-			this.name = name;
-			return this;
-		}
-		
-		public Builder category(String category) {
-			this.category = category;
-			return this;
-		}
-		
-		public Builder brand(String brand) {
-			this.brand = brand;
-			return this;
-		}
-		
-		public Builder price(int price) {
-			this.price = price;
-			return this;
-		}
+			
 	}
 	
 	private String name;

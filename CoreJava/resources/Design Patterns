@@ -28,9 +28,20 @@ c. Prototype pattern - It is used to get unique instance of same object, to avoi
 d. Factory Method: It is the second most used and opposite to singleton creation pattern.
 		-> They dont exponse instantiation logic to the user, by deferring subclass. ex Calender, number format.
 		-> They create and manage objects and helps in referencing objects,also they create methods.
-		-> It is parameter driven construction, its complex in implementation. Ex Website, Blog getting different onjects.
+		-> It is parameter driven construction, its complex in implementation. Ex Website, Blog getting different objects.
 	
 e. Abstract Factory: it is a factory of factory, it is factory of related objects, they defer subclass. Ex- Document Builder Factory
 		->
 			
+
+2. Structural Design Pattern: It is based on utilization of objects and memory management etc.
+	
+a. Adapter : It is used when a legacy code is interfaced with new code, to adapt the features we use the adapter design pattern.
+		Ex: Iphone adapter with universal headphone jack. 
+		Ex: Arrays, Adapting  array into list.
+		It allows client to integrate with the code based on some interface, Like api with legacy code.
+		Adapter can provide multiple adapters.
+		
+b. 	Bridge : It is similar to adapter but bridge helps in interfacing between new code, they help in decouple abstraction
+		ex: Driver, JDBC driver they do not break functionality for client even when interface is being changed.
 		
