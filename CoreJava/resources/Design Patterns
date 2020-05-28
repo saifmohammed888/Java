@@ -33,15 +33,23 @@ d. Factory Method: It is the second most used and opposite to singleton creation
 e. Abstract Factory: it is a factory of factory, it is factory of related objects, they defer subclass. Ex- Document Builder Factory
 		->
 			
-
 2. Structural Design Pattern: It is based on utilization of objects and memory management etc.
 	
-a. Adapter : It is used when a legacy code is interfaced with new code, to adapt the features we use the adapter design pattern.
-		Ex: Iphone adapter with universal headphone jack. 
-		Ex: Arrays, Adapting  array into list.
-		It allows client to integrate with the code based on some interface, Like api with legacy code.
-		Adapter can provide multiple adapters.
+a. Adapter : Adapter pattern works as a bridge between two incompatible interfaces
+		-> A real life example could be a case of card reader which acts as an adapter between memory card and a laptop. Ex: ArrayasList
 		
-b. 	Bridge : It is similar to adapter but bridge helps in interfacing between new code, they help in decouple abstraction
-		ex: Driver, JDBC driver they do not break functionality for client even when interface is being changed.
+b. Bridge : Bridge is used when we need to decouple an abstraction from its implementation so that the two can vary independently
+		-> Both the classes are altered without effecting their functionality.
+
+c. Composite -> Composite pattern is used where we need to treat a group of objects in similar way as a single object. 
+		-> Employee Hierarchy -> Student Teach Hierarchy
 		
+d. Decorator: Decorator pattern allows a user to add new functionality to an existing object without altering its structure.
+		-> Adding personal hobbies and other details to employee detail class using decorator
+
+e. Facade: Facade pattern hides the complexities of the system and provides an interface to the client using which the client 
+		  can access the system. 
+		-> Ex JPA repository interface helps doing db operations with simple methods
+
+f. Flywight: Flyweight pattern is primarily used to reduce the number of objects created and to decrease memory footprint 
+			and increase performance.
