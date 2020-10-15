@@ -6,7 +6,8 @@ public class Variables {
 	String instanceVariable;
 
 	public static void main(String args[]) {
-		String locaVariabl = "local Variable";			// --> Local Variable
+		
+		String locaVariabl = "local Variable";				// --> Local Variable
 
 		Variables instance = new Variables();
 		instance.instanceVariable = "Instance Variable";	// --> Instance Variable
