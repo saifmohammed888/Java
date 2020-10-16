@@ -15,9 +15,7 @@ public class ConditionalStatements {
 	}
 	
 	public static void ifElseStatement() {
-		if(14<10)
-			System.out.println("If Condition Passed");
-		else 
+
 			System.out.println("If Condition failed hence else Executed");	
 	}
 
