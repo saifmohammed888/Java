@@ -12,7 +12,7 @@ package com.skilling.java.core;
 		System.out.println(Family.ZOYA);
 	}
 	}
-
+	
 	public class Enumeration {
 
 	public static void main(String[] args) {
