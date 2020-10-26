@@ -1,7 +1,12 @@
 package com.skilling.java.core;
 
 public class LoopingStatements {
-
+	
+	LoopingStatements(){
+		System.out.println("Super class constructor");
+	}
+	
+	
 	public static void main(String[] args) {
 		whileLoop();
 		doWhileLoop();
