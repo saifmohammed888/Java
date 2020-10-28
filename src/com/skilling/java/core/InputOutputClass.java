@@ -1,10 +1,8 @@
 package com.skilling.java.core;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
+import java.util.*;
+
 
 public class InputOutputClass {
 	
@@ -13,6 +11,20 @@ public class InputOutputClass {
 		InputOutputClass obj = new InputOutputClass();
 		obj.charStream();
 		obj.byteStream();
+		obj.Scanner();
+	}
+
+	private void Scanner() {
+		 Scanner scan = new Scanner(System.in);
+		 
+		 String name = scan.nextLine();
+		 int age = scan.nextInt();
+		 String email = scan.nextLine();
+		 
+		 System.out.println("Name :"+name);
+		 System.out.println("age :"+age);
+		 System.out.println("email :"+email);
+		
 	}
 
 	private void byteStream() {
