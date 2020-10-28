@@ -6,7 +6,6 @@ import java.util.*;
 
 public class InputOutputClass {
 	
-	
 	public static void main(String[] args) {
 		InputOutputClass obj = new InputOutputClass();
 		obj.charStream();
@@ -80,5 +79,4 @@ public class InputOutputClass {
 			}
 		}
 	}
-	
 }
