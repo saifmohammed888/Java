@@ -11,18 +11,26 @@ public class OperatorClass {
 		opObject.logicalOperator();
 		opObject.terniaryOperator();
 		opObject.bitwiseOperator();
+		opObject.shiftOperator();
+		opObject.shiftOperator();
 
+	}
 
+	private void shiftOperator() {
+		int a = 0x0005;
+
+		System.out.println("Left shift a<<2 is like multiplying by 2 :" + (a << 2));
+		System.out.println("Left shift a>>2 is like dividing by 2 :" + (a >> 2));
 	}
 
 	private void bitwiseOperator() {
 		int a = 0x0005;
 		int b = 0x0007;
-		
-		System.out.println("Bitwise AND value of a and b "+(a&b));
-		System.out.println("Bitwise OR value of a and b "+(a|b));
-		System.out.println("Bitwise XOR value of a and b "+(a^b));
-		System.out.println("Bitwise Complement value of a "+(~a));
+
+		System.out.println("Bitwise AND value of a and b " + (a & b));
+		System.out.println("Bitwise OR value of a and b " + (a | b));
+		System.out.println("Bitwise XOR value of a and b " + (a ^ b));
+		System.out.println("Bitwise Complement value of a " + (~a));
 	}
 
 	private void terniaryOperator() {
